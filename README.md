@@ -8,6 +8,9 @@ Paste your answers into this file.
 
 ```
 ANSWER HERE
+for(var i=0;i<=10;i++){
+    console.log(i);
+}
 ```
 
 <br>
@@ -16,6 +19,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(var i=10;i>=0;i--){
+    console.log(i);
+}
 ```
 
 <br>
@@ -24,6 +30,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(var i=4;i>=-16;i--){
+    console.log(i);
+}
 ```
 
 <br>
@@ -32,6 +41,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(var i=8;i<=41;i++){
+    console.log(i);
+}
 ```
 
 <br>
@@ -49,6 +61,20 @@ If the `number` is evenly divisible by 3 AND evenly divisible by 5, print "Fizzb
 
 ```
 ANSWER HERE
+
+
+for(var i =1;i<=100;i++){
+
+  if ((i%3==0)&&(i%5==0)){
+    console.log("Fizzbuzz");
+  }
+  else if(i%3==0){
+    console.log("Fizz");
+  }
+  else if(i%5==0){
+    console.log("Buzz");
+  }
+}
 ```
 
 <br>
@@ -60,6 +86,15 @@ Write a for loop that will iterate from 0 to 20. For each iteration, it will che
 
 ```
 ANSWER HERE
+
+for(var i=0;i<=20;i++){
+if(i%2==0){
+  console.log(i+" is even");
+}
+else if(i%2!=0){
+  console.log(i+" is odd")
+}
+}
 ```
 
 <br>
@@ -73,6 +108,19 @@ Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 1
 
 ```
 ANSWER HERE
+
+for(var i=0;i<=10;i++){
+  var result=i*9;
+  console.log(i+" * 9 = "+result);
+}
+
+for(var y =10;y>=1;y--){
+  for(var i=1;i<=10;i++){
+    var result=i*y;
+  console.log(y+" * "+i+" = "+result);
+  } 
+}
+
 ```
 
 <br>
